@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49be5126f43a791458c7ba153540fb1b, type: 3}
+  m_Name: KnivesList
+  m_EditorClassIdentifier: 
+  knives:
+  - id: 1
+    prefab: {fileID: 6814412700255797600, guid: 3cf759cfff7a44a46af18772142b8bf2,
+      type: 3}
+    price: 0
+  - id: 2
+    prefab: {fileID: 6814412700255797600, guid: fcfc586f50fbbb74e80d1b1951127507,
+      type: 3}
+    price: 150
+  - id: 3
+    prefab: {fileID: 6814412700255797600, guid: a7bd17863e5c7c74794a967b5b853be2,
+      type: 3}
+    price: 150
+  - id: 4
+    prefab: {fileID: 6814412700255797600, guid: dc7acb89dcc77964694147ab30aa7491,
+      type: 3}
+    price: 150
+  - id: 5
+    prefab: {fileID: 6814412700255797600, guid: 2e6d59c53132bbc48a29ddbbf2fb03b2,
+      type: 3}
+    price: 200
+  - id: 6
+    prefab: {fileID: 6814412700255797600, guid: 89446742f0446e24882caad34221eb24,
+      type: 3}
+    price: 200
+  - id: 7
+    prefab: {fileID: 6814412700255797600, guid: 59daf46bcd807cb4c9818a6fbb1ce69a,
+      type: 3}
+    price: 200
+  - id: 8
+    prefab: {fileID: 6814412700255797600, guid: 238da13f4f894984c9e7b277fc3f5872,
+      type: 3}
+    price: 200
+  - id: 9
+    prefab: {fileID: 6814412700255797600, guid: 5b7f882711f8506419767dbe58420dbf,
+      type: 3}
+    price: 200
+  - id: 10
+    prefab: {fileID: 6814412700255797600, guid: 484ede4f504082944b32b1f9ee2b7c7c,
+      type: 3}
+    price: 200
+  - id: 11
+    prefab: {fileID: 6814412700255797600, guid: a7525bc1f9dcc9b4b9a8be96121e60ab,
+      type: 3}
+    price: 200
+  - id: 12
+    prefab: {fileID: 6814412700255797600, guid: ad47d3cc0573c66459f811fee91e9db0,
+      type: 3}
+    price: 200
+  - id: 13
+    prefab: {fileID: 6814412700255797600, guid: 4c6e3953f77d2fa48b52ae70e40ece5d,
+      type: 3}
+    price: 200
+  - id: 14
+    prefab: {fileID: 6814412700255797600, guid: 2c94e7859520df641abb966d809a2b49,
+      type: 3}
+    price: 250
+  - id: 15
+    prefab: {fileID: 6814412700255797600, guid: fadb5f32701666245a4e44b83495b0de,
+      type: 3}
+    price: 250
+  - id: 16
+    prefab: {fileID: 6814412700255797600, guid: 201324bef33f37748a906aa3b342e3a7,
+      type: 3}
+    price: 250
+  - id: 17
+    prefab: {fileID: 6814412700255797600, guid: 97d3088ab11eece409a9c68510fb2b82,
+      type: 3}
+    price: 250
+  - id: 18
+    prefab: {fileID: 6814412700255797600, guid: b816b16c2e6b01749be245c203986fe3,
+      type: 3}
+    price: 250
+  - id: 19
+    prefab: {fileID: 6814412700255797600, guid: c8abea478878e124fbcf3479437cc5b8,
+      type: 3}
+    price: 250
+  - id: 20
+    prefab: {fileID: 6814412700255797600, guid: d1a935f4f1e19a749840a99b77fff961,
+      type: 3}
+    price: 250

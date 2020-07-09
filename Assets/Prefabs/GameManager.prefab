@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4397220277289633804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4397220277289633795}
+  - component: {fileID: 4397220277289633794}
+  - component: {fileID: 4397220277289633805}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4397220277289633795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397220277289633804}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -859.1421, y: -467.48712, z: 617.8548}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4397220277289633794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397220277289633804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdbe0bc4f010384fb92b03292facef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knifePrefab: {fileID: 6814412700255797600, guid: 3cf759cfff7a44a46af18772142b8bf2,
+    type: 3}
+  knifeSpawnPoint: {fileID: 0}
+  bossFight: {fileID: 8300000, guid: ad14a2f532009cb4f96bd23fd67ff3ca, type: 3}
+  bossDefeated: {fileID: 8300000, guid: 4a0b007174ea6b849ac805343e3db064, type: 3}
+  knifeObject: {fileID: 6814412700255797600, guid: 3cf759cfff7a44a46af18772142b8bf2,
+    type: 3}
+  appleObject: {fileID: 5089011162400878806, guid: b5450b1f668f9a04cb9e394767f22f07,
+    type: 3}
+--- !u!114 &4397220277289633805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4397220277289633804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d901f1785d6d2454d8a5024478efa6a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
