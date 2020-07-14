@@ -319,7 +319,7 @@ PrefabInstance:
     - target: {fileID: 7219170371457782406, guid: fad07ba669c144c43a0a22807881c927,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 36.699707
+      value: 36.69922
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fad07ba669c144c43a0a22807881c927, type: 3}
@@ -557,10 +557,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 820713747}
     m_Modifications:
+    - target: {fileID: 751820972037711581, guid: b4bd5c941bd9c6d42bb51b5af751c151,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -236.40039
+      objectReference: {fileID: 0}
     - target: {fileID: 1464151365945832717, guid: b4bd5c941bd9c6d42bb51b5af751c151,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868950131695167517, guid: b4bd5c941bd9c6d42bb51b5af751c151,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.71484375
       objectReference: {fileID: 0}
     - target: {fileID: 2949454646201167465, guid: b4bd5c941bd9c6d42bb51b5af751c151,
         type: 3}
@@ -667,20 +677,45 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3980831104166249501, guid: b4bd5c941bd9c6d42bb51b5af751c151,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.71484375
+      objectReference: {fileID: 0}
     - target: {fileID: 4223578046845307934, guid: b4bd5c941bd9c6d42bb51b5af751c151,
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 86.72412
+      objectReference: {fileID: 0}
+    - target: {fileID: 4462901517541202071, guid: b4bd5c941bd9c6d42bb51b5af751c151,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.71484375
       objectReference: {fileID: 0}
     - target: {fileID: 4511057795633294040, guid: b4bd5c941bd9c6d42bb51b5af751c151,
         type: 3}
       propertyPath: m_Name
       value: Game UI
       objectReference: {fileID: 0}
+    - target: {fileID: 7117798838093619038, guid: b4bd5c941bd9c6d42bb51b5af751c151,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -330.2705
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117798838093619038, guid: b4bd5c941bd9c6d42bb51b5af751c151,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -236.69434
+      objectReference: {fileID: 0}
     - target: {fileID: 9205477708771972749, guid: b4bd5c941bd9c6d42bb51b5af751c151,
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.016601562
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205477708771972749, guid: b4bd5c941bd9c6d42bb51b5af751c151,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.28710938
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4bd5c941bd9c6d42bb51b5af751c151, type: 3}
@@ -1002,9 +1037,2055 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
         type: 3}
+      propertyPath: bossEnemies.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[1].curve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.appleSpawnAngles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.knifeSpawnAngles.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
       propertyPath: enemySpawnPoint
       value: 
       objectReference: {fileID: 872551955}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].bossName
+      value: CD
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].prefab
+      value: 
+      objectReference: {fileID: 4101457406881858774, guid: 41f1a4494259995459c13a573a727593,
+        type: 3}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].time
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[0].inSlope
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[0].outSlope
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[0].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[0].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[1].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[1].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[2].time
+      value: 0.14285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[2].value
+      value: 0.04081633
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[2].inSlope
+      value: 0.5714286
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[2].outSlope
+      value: 0.5714286
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[2].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[2].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[3].time
+      value: 0.21428572
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[3].value
+      value: 0.091836736
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[3].inSlope
+      value: 0.85714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[3].outSlope
+      value: 0.85714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[3].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[3].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[4].time
+      value: 0.2857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[4].value
+      value: 0.16326532
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[4].inSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[4].outSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[4].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[4].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[5].time
+      value: 0.35714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[5].value
+      value: 0.25510204
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[5].inSlope
+      value: 1.4285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[5].outSlope
+      value: 1.4285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[5].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[5].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[6].time
+      value: 0.42857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[6].value
+      value: 0.36734694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[6].inSlope
+      value: 1.7142859
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[6].outSlope
+      value: 1.7142859
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[6].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[6].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[7].time
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[7].value
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[7].inSlope
+      value: 1.8571429
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[7].outSlope
+      value: 1.8571429
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[7].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[7].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[8].time
+      value: 0.5714286
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[8].value
+      value: 0.6326531
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[8].inSlope
+      value: 1.7142857
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[8].outSlope
+      value: 1.7142857
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[8].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[8].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[9].time
+      value: 0.64285713
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[9].value
+      value: 0.74489796
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[9].inSlope
+      value: 1.4285712
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[9].outSlope
+      value: 1.4285712
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[9].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[9].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[10].time
+      value: 0.71428573
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[10].value
+      value: 0.8367347
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[10].inSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[10].outSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[10].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[10].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[11].time
+      value: 0.78571427
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[11].value
+      value: 0.90816325
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[11].inSlope
+      value: 0.857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[11].outSlope
+      value: 0.857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[11].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[11].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[12].time
+      value: 0.85714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[12].value
+      value: 0.9591837
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[12].inSlope
+      value: 0.5714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[12].outSlope
+      value: 0.5714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[12].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[12].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[13].time
+      value: 0.9285714
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[13].value
+      value: 0.9897959
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[13].inSlope
+      value: 0.28571424
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[13].outSlope
+      value: 0.28571424
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[13].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[13].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[14].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[14].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[14].inSlope
+      value: 0.14285703
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[14].outSlope
+      value: 0.14285703
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[14].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_Curve.Array.data[14].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[0].curve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[1].time
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[1].z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[1].curve.m_Curve.Array.data[0].inSlope
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[1].curve.m_Curve.Array.data[0].outSlope
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[1].curve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[1].curve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[1].curve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[1].curve.m_Curve.Array.data[1].inSlope
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[1].curve.m_Curve.Array.data[1].outSlope
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[1].curve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[1].curve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[1].curve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].time
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[0].inSlope
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[0].outSlope
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[0].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[0].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[1].inSlope
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[1].outSlope
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[1].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[1].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[2].time
+      value: 0.14285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[2].value
+      value: 0.04081633
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[2].inSlope
+      value: 0.5714286
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[2].outSlope
+      value: 0.5714286
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[2].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[2].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[3].time
+      value: 0.21428572
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[3].value
+      value: 0.091836736
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[3].inSlope
+      value: 0.85714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[3].outSlope
+      value: 0.85714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[3].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[3].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[4].time
+      value: 0.2857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[4].value
+      value: 0.16326532
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[4].inSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[4].outSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[4].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[4].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[5].time
+      value: 0.35714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[5].value
+      value: 0.25510204
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[5].inSlope
+      value: 1.4285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[5].outSlope
+      value: 1.4285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[5].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[5].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[6].time
+      value: 0.42857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[6].value
+      value: 0.36734694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[6].inSlope
+      value: 1.7142859
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[6].outSlope
+      value: 1.7142859
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[6].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[6].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[7].time
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[7].value
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[7].inSlope
+      value: 1.8571429
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[7].outSlope
+      value: 1.8571429
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[7].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[7].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[8].time
+      value: 0.5714286
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[8].value
+      value: 0.6326531
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[8].inSlope
+      value: 1.7142857
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[8].outSlope
+      value: 1.7142857
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[8].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[8].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[9].time
+      value: 0.64285713
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[9].value
+      value: 0.74489796
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[9].inSlope
+      value: 1.4285712
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[9].outSlope
+      value: 1.4285712
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[9].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[9].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[10].time
+      value: 0.71428573
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[10].value
+      value: 0.8367347
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[10].inSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[10].outSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[10].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[10].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[11].time
+      value: 0.78571427
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[11].value
+      value: 0.90816325
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[11].inSlope
+      value: 0.857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[11].outSlope
+      value: 0.857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[11].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[11].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[12].time
+      value: 0.85714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[12].value
+      value: 0.9591837
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[12].inSlope
+      value: 0.5714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[12].outSlope
+      value: 0.5714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[12].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[12].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[13].time
+      value: 0.9285714
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[13].value
+      value: 0.9897959
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[13].inSlope
+      value: 0.28571424
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[13].outSlope
+      value: 0.28571424
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[13].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[13].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[14].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[14].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[14].inSlope
+      value: 0.14285703
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[14].outSlope
+      value: 0.14285703
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[14].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[14].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].time
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[0].inSlope
+      value: 0.14285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[0].outSlope
+      value: 0.14285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[0].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[0].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[1].time
+      value: 0.071428575
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[1].value
+      value: 0.010204082
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[1].inSlope
+      value: 0.2857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[1].outSlope
+      value: 0.2857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[1].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[2].time
+      value: 0.14285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[2].value
+      value: 0.04081633
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[2].inSlope
+      value: 0.5714286
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[2].outSlope
+      value: 0.5714286
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[2].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[2].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[3].time
+      value: 0.21428572
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[3].value
+      value: 0.091836736
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[3].inSlope
+      value: 0.85714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[3].outSlope
+      value: 0.85714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[3].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[3].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[4].time
+      value: 0.2857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[4].value
+      value: 0.16326532
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[4].inSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[4].outSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[4].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[4].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[5].time
+      value: 0.35714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[5].value
+      value: 0.25510204
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[5].inSlope
+      value: 1.4285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[5].outSlope
+      value: 1.4285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[5].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[5].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[6].time
+      value: 0.42857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[6].value
+      value: 0.36734694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[6].inSlope
+      value: 1.7142859
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[6].outSlope
+      value: 1.7142859
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[6].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[6].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[7].time
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[7].value
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[7].inSlope
+      value: 1.8571429
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[7].outSlope
+      value: 1.8571429
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[7].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[7].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[8].time
+      value: 0.5714286
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[8].value
+      value: 0.6326531
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[8].inSlope
+      value: 1.7142857
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[8].outSlope
+      value: 1.7142857
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[8].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[8].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[9].time
+      value: 0.64285713
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[9].value
+      value: 0.74489796
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[9].inSlope
+      value: 1.4285712
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[9].outSlope
+      value: 1.4285712
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[9].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[9].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[10].time
+      value: 0.71428573
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[10].value
+      value: 0.8367347
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[10].inSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[10].outSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[10].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[10].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[11].time
+      value: 0.78571427
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[11].value
+      value: 0.90816325
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[11].inSlope
+      value: 0.857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[11].outSlope
+      value: 0.857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[11].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[11].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[12].time
+      value: 0.85714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[12].value
+      value: 0.9591837
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[12].inSlope
+      value: 0.5714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[12].outSlope
+      value: 0.5714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[12].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[12].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[13].time
+      value: 0.9285714
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[13].value
+      value: 0.9897959
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[13].inSlope
+      value: 0.28571424
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[13].outSlope
+      value: 0.28571424
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[13].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[13].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[14].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[14].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[14].inSlope
+      value: 0.14285703
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[14].outSlope
+      value: 0.14285703
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[14].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_Curve.Array.data[14].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[3].curve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].time
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].z
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[0].inSlope
+      value: 0.14285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[0].outSlope
+      value: 0.14285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[0].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[0].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[1].time
+      value: 0.071428575
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[1].value
+      value: 0.010204082
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[1].inSlope
+      value: 0.2857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[1].outSlope
+      value: 0.2857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[1].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[2].time
+      value: 0.14285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[2].value
+      value: 0.04081633
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[2].inSlope
+      value: 0.5714286
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[2].outSlope
+      value: 0.5714286
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[2].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[2].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[3].time
+      value: 0.21428572
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[3].value
+      value: 0.091836736
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[3].inSlope
+      value: 0.85714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[3].outSlope
+      value: 0.85714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[3].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[3].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[4].time
+      value: 0.2857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[4].value
+      value: 0.16326532
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[4].inSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[4].outSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[4].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[4].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[5].time
+      value: 0.35714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[5].value
+      value: 0.25510204
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[5].inSlope
+      value: 1.4285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[5].outSlope
+      value: 1.4285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[5].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[5].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[6].time
+      value: 0.42857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[6].value
+      value: 0.36734694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[6].inSlope
+      value: 1.7142859
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[6].outSlope
+      value: 1.7142859
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[6].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[6].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[7].time
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[7].value
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[7].inSlope
+      value: 1.8571429
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[7].outSlope
+      value: 1.8571429
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[7].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[7].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[8].time
+      value: 0.5714286
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[8].value
+      value: 0.6326531
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[8].inSlope
+      value: 1.7142857
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[8].outSlope
+      value: 1.7142857
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[8].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[8].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[9].time
+      value: 0.64285713
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[9].value
+      value: 0.74489796
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[9].inSlope
+      value: 1.4285712
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[9].outSlope
+      value: 1.4285712
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[9].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[9].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[10].time
+      value: 0.71428573
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[10].value
+      value: 0.8367347
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[10].inSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[10].outSlope
+      value: 1.1428571
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[10].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[10].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[11].time
+      value: 0.78571427
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[11].value
+      value: 0.90816325
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[11].inSlope
+      value: 0.857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[11].outSlope
+      value: 0.857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[11].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[11].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[12].time
+      value: 0.85714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[12].value
+      value: 0.9591837
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[12].inSlope
+      value: 0.5714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[12].outSlope
+      value: 0.5714287
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[12].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[12].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[13].time
+      value: 0.9285714
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[13].value
+      value: 0.9897959
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[13].inSlope
+      value: 0.28571424
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[13].outSlope
+      value: 0.28571424
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[13].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[13].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[14].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[14].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[14].inSlope
+      value: 0.14285703
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[14].outSlope
+      value: 0.14285703
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[14].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_Curve.Array.data[14].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[4].curve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.appleSpawnChance
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.enemyLives
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.appleSpawnAngles.Array.data[0]
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.appleSpawnAngles.Array.data[1]
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.appleSpawnAngles.Array.data[2]
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.appleSpawnAngles.Array.data[3]
+      value: 240
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.appleSpawnAngles.Array.data[4]
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.appleSpawnAngles.Array.data[5]
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.knifeSpawnAngles.Array.data[1]
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.knifeSpawnAngles.Array.data[2]
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.knifeSpawnAngles.Array.data[3]
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.knifeSpawnAngles.Array.data[4]
+      value: 210
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.knifeSpawnAngles.Array.data[5]
+      value: 330
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].rotationPattern.rotationSteps.Array.data[2].curve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: bossEnemies.Array.data[6].levelPattern.knifeSpawnAngles.Array.data[0]
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: DEBUG_MODE
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247473145439674805, guid: 844a08824c9197a44a80f790eae99468,
+        type: 3}
+      propertyPath: DEBUG_BossName
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 844a08824c9197a44a80f790eae99468, type: 3}
 --- !u!1001 &4397220277294083242

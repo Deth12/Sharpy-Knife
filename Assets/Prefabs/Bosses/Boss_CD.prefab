@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5273195191931605986}
   - component: {fileID: 2428394842173021520}
   m_Layer: 0
-  m_Name: Boss_Ground
+  m_Name: Boss_CD
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: -63440835
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 32fe5ace4b00b394182114b5060f8128, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 37a639a772ec6214aadaed45c709744b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,12 +96,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitSounds:
-  - {fileID: 8300000, guid: 03cfd44ec9722f244864ea4b72a99055, type: 3}
-  hitEffect: {fileID: 198314479377665406, guid: e1b3d5396bc17394283a435562a153a9,
+  - {fileID: 8300000, guid: ac3a5983b26b9744d82a601ab8317e76, type: 3}
+  hitEffect: {fileID: 198314479377665406, guid: ee1f8528f48247a4dacf8dd919e7b3fe,
     type: 3}
-  destroyEffect: {fileID: 198406193673109968, guid: 08350eccddc2599438afa5979f6bc778,
+  destroyEffect: {fileID: 198406193673109968, guid: 0f465ac0f197de940b9611a69c8f1f9a,
     type: 3}
-  spawnHeight: 0.2
+  spawnHeight: 0.4
 --- !u!58 &2428394842173021520
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -115,6 +115,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.00754031, y: 0}
   serializedVersion: 2
-  m_Radius: 1.99
+  m_Radius: 1.9804031

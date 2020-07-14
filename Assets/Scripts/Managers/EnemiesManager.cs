@@ -27,7 +27,10 @@ public class EnemiesManager : MonoBehaviour
     public int lowDifficultyBorder = 10;
     public int mediumDifficultyBorder = 30;
     public int highDifficultyBorder = 50;
-    
+
+    [Header("Debug")]
+    public bool DEBUG_MODE;
+    public string DEBUG_BossName;
 
     public Enemy GetDefaultEnemy(int level)
     {
@@ -56,11 +59,13 @@ public class EnemiesManager : MonoBehaviour
     public Enemy GetRandomBossEnemy()
     {
         int rnd = Random.Range(0, bossEnemies.Count);
-        GameObject enemyObj = Instantiate(bossEnemies[rnd].prefab,
-            enemySpawnPoint.position, Quaternion.identity, enemySpawnPoint);
-        Enemy enemy = enemyObj.GetComponent<Enemy>();    
-        enemy.SetupEnemy(bossEnemies[rnd].rotationPattern,bossEnemies[rnd].levelPattern);
-        UIManager.instance.UpdateBossName(bossEnemies[rnd].bossName);
+        Boss boss = DEBUG_MODE
+            ? bossEnemies.Find(x => x.bossName == DEBUG_BossName)
+            : bossEnemies[rnd];
+        GameObject enemyObj = Instantiate(boss.prefab, enemySpawnPoint.position, Quaternion.identity, enemySpawnPoint);
+        Enemy enemy = enemyObj.GetComponent<Enemy>();
+        enemy.SetupEnemy(boss.rotationPattern, boss.levelPattern);
+        UIManager.instance.UpdateBossName(boss.bossName);
         return enemy;
     }
 }

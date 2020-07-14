@@ -17,7 +17,7 @@ public class UIManager : MonoBehaviour
     private Text scoreCounter;
     [SerializeField]
     private Text appleCounter;
-    
+
     [Header("Progress")]
     [SerializeField]
     private Text levelCounter;
@@ -56,7 +56,10 @@ public class UIManager : MonoBehaviour
     private void UpdateLevelProgress(int level)
     {
         if (level % 5 == 0)
+        {
             levelProgressAnimator.Play("LevelProgress_Minimize");
+            levelCounter.text = "BOSS FIGHT";
+        }
         else if (level != 1 && level % 5 == 1)
         {
             levelProgressAnimator.Play("LevelProgress_Maximize");
@@ -78,7 +81,6 @@ public class UIManager : MonoBehaviour
                 levelDots[i].color = bossDotColor;
                 levelCounter.color = bossDotColor;
             }
-            // TOFIX
         }
     }
 

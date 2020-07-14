@@ -1182,7 +1182,7 @@ GameObject:
   - component: {fileID: 1796990020923018714}
   - component: {fileID: 19210594095207339}
   m_Layer: 5
-  m_Name: UI
+  m_Name: Game UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1298,7 +1298,7 @@ MonoBehaviour:
   - {fileID: 7290853108549357174}
   activeDotColor: {r: 1, g: 1, b: 1, a: 0.9411765}
   normalDotColor: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 0.9411765}
-  bossDotColor: {r: 1, g: 0.89104885, b: 0.6650944, a: 1}
+  bossDotColor: {r: 1, g: 0.3726415, b: 0.37999246, a: 1}
   bossOverlay: {fileID: 3153462929446563630}
   bossDefeatOverlay: {fileID: 5535799234932509622}
 --- !u!114 &19210594095207339
@@ -2752,7 +2752,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0.321, y: 1}
-  m_AnchoredPosition: {x: 86.72403, y: -236.41}
+  m_AnchoredPosition: {x: 86.72412, y: -236.41}
   m_SizeDelta: {x: 173.50366, y: 472.81116}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3506654937472520284

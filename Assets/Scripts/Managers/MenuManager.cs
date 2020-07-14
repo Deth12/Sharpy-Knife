@@ -49,7 +49,6 @@ public class MenuManager : MonoBehaviour
     private int minApples = 50;
     [SerializeField]
     private int timeBtwGifts = 60;
-    [SerializeField]
     
     void Start()
     {

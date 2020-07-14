@@ -41,40 +41,26 @@ public class GameStatus : MonoBehaviour
         }
     }
 
-    private static int _apples;
     public static int Apples
     {
         get => PlayerPrefs.GetInt ("ApplesAmount", 0);
         set
         {
-            _apples = value;
             PlayerPrefs.SetInt ("ApplesAmount", value);
-            OnAppleChange?.Invoke(_apples);
+            OnAppleChange?.Invoke(value);
         }
     }
-
-  
-    private static int _highscore;
+    
     public static int Highscore
     {
         get => PlayerPrefs.GetInt ("Highscore", 0);
-        set
-        {
-            _highscore = value;
-            PlayerPrefs.SetInt ("Highscore", value);
-        }
+        set => PlayerPrefs.SetInt ("Highscore", value);
     }
     
-    
-    private static int _maxLevel;
     public static int MaxLevel
     {
         get => PlayerPrefs.GetInt ("MaxLevel", 0);
-        set
-        {
-            _apples = value;
-            PlayerPrefs.SetInt ("MaxLevel", value);
-        }
+        set => PlayerPrefs.SetInt ("MaxLevel", value);
     }
 
     public static DateTime GiftTimeLeft

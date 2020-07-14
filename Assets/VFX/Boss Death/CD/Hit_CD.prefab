@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 198314479377665406}
   - component: {fileID: 199594190640934636}
   m_Layer: 0
-  m_Name: Hit_Wood
+  m_Name: Hit_CD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4731,7 +4731,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e0f78b1459cbb4a489aa4d9966f757a8, type: 2}
+  - {fileID: 2100000, guid: dc12b32dcf577a24db139f0bb0feddbc, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
